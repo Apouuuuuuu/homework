@@ -1,0 +1,14 @@
+port: <%=
+
+port = p("port")
+
+if port < 1024 or port > 4000 or (port.eql? 1024)
+  if (port.eql? 8080)
+    8080
+  else
+    raise "Invalid port number"
+  end
+else
+  port
+end
+%>

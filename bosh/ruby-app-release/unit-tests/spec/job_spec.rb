@@ -4,6 +4,9 @@ require 'bosh/template/test'
 require 'yaml'
 require_relative 'helpers'
 
+
+
+
 describe 'ruby app main job:' do
 
   let(:release) { Bosh::Template::Test::ReleaseDir.new(File.join(File.dirname(__FILE__), '../..')) }

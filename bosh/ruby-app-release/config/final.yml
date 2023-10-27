@@ -1,3 +1,5 @@
+name: ruby-app-release # Add the name
+
 blobstore:
   provider: local
   options:
